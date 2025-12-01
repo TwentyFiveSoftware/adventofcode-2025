@@ -1,0 +1,13 @@
+[package]
+name = "adventofcode-2025"
+version = "1.0.0"
+edition = "2024"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+panic = "abort"
+
+[dependencies]
+regex = "1.12"
+rayon = "1.11"
