@@ -11,3 +11,4 @@ panic = "abort"
 [dependencies]
 regex = "1.12"
 rayon = "1.11"
+good_lp = { version = "1.14", features = ["microlp"], default-features = false }
